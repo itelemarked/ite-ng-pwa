@@ -35,7 +35,7 @@
               },
               {
                 "glob": "ngsw-ite-service-worker.js",
-                "input": "",
+                "input": "service-worker",
                 "output": "./"
               },
               "src/manifest.webmanifest"
@@ -78,7 +78,7 @@
             ],
             "scripts": [],
             "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            "ngswConfigPath": "service-worker/ngsw-config.json"
           },
           "configurations": {
             "production": {
